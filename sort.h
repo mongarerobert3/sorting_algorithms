@@ -24,6 +24,7 @@ typedef struct listint_s
 /******prototypes*******/
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 /*prototype of print function*/
 void print_list(const listint_t *list);
