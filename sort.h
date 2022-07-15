@@ -5,6 +5,7 @@
 #include "sort.h"
 
 
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -12,6 +13,7 @@
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
@@ -21,6 +23,7 @@ typedef struct listint_s
 
 /******prototypes*******/
 void bubble_sort(int *array, size_t size);
+void selection_sort(int *array, size_t size);
 
 /*prototype of print function*/
 void print_list(const listint_t *list);
