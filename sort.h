@@ -2,8 +2,7 @@
 #define sorting_algos
 
 #include <stdio.h>
-#include "sort.h"
-
+#include <stdlib.h>
 
 
 /**
