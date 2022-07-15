@@ -1,4 +1,7 @@
 #include "sort.h"
+int partition(int *array, int start, int end, int size);
+void quicksort(int *array, int start, int end, int size);
+void swap(int *array, int *a, int *b, int size);
 
 /**
  * quick_sort - Implementation of quick sort
