@@ -2,13 +2,13 @@
 
 /**
  * _swap - swaps two nodes of the linked list.
- * 
- * @h: pointer to the head of the list
- * @first_node: pointer to the first node
- * @second_node: pointer to the second node
- * Return: void
+ *
+ * @h: pointer to  head of  list
+ * @first_node: pointer to first-node
+ * @sec_node: pointer to  second-node
+ * Return: 0
  */
-void swap(listint_t **h, listint_t **first_node, listint_t *sec_node)
+void _swap(listint_t **h, listint_t **first_node, listint_t *sec_node)
 {
 	(*first_node)->next = sec_node->next;
 	if (sec_node->next != NULL)
@@ -24,9 +24,9 @@ void swap(listint_t **h, listint_t **first_node, listint_t *sec_node)
 }
 
 /**
- * insertion_sort_list - sorts a doubly linked list of integers
+ * insertion_sort_list - uses insertion to sort doubly linked-list
  * @list: pointer to the head of the list
- * Return: void
+ * Return: 0
  */
 void insertion_sort_list(listint_t **list)
 {
@@ -40,7 +40,7 @@ void insertion_sort_list(listint_t **list)
 		prev = next->prev;
 		while (prev != NULL && prev->n > next->n)
 		{
-			swap(list, &prev, next);
+			_swap(list, &prev, next);
 			print_list(*list);
 		}
 	}
