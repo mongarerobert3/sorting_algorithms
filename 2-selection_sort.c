@@ -4,7 +4,7 @@
  * @a: integer
  * @b: integer
  **/
-void _swap(int *a, int *b)
+void swap(int *a, int *b)
 {
 	int tmp;
 
@@ -35,7 +35,7 @@ void selection_sort(int *array, size_t size)
 		}
 		if (min != i)
 		{
-			_swap(&array[i], &array[min]);
+			swap(&array[i], &array[min]);
 			print_array(array, size);
 		}
 	}
