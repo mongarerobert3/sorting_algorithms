@@ -26,7 +26,11 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void _swap(listint_t **list, listint_t **node1, listint_t *node2);
+<<<<<<< HEAD
 void swap(int *a, int *b);
+=======
+void _swap(int *a, int *b);
+>>>>>>> 4fc6b469c771a9021e9288698b5b8e4e33a5af6d
 
 /*
 prototype of print function
