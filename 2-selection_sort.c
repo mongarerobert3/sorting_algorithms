@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * _swap - swap two numbers
+ * swap - swap two numbers
  * @a: integer
  * @b: integer
  **/
