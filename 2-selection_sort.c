@@ -16,6 +16,7 @@ void swap_(int *a, int *b)
  * selection_sort - sort array using selection sort algorithm
  * @array: array
  * @size: array size
+ * Return: None
  **/
 
 void selection_sort(int *array, size_t size)
